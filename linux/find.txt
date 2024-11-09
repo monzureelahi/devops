@@ -1,0 +1,130 @@
+1  clear
+    2  pwd
+    3  ls /
+    4  ls /root
+    5  ls /etc
+    6  ls
+    7  ls /
+    8  ls /etc
+    9  ls /
+   10  ls /etc
+   11  ls -ll /etc
+   12  clear
+   13  cd /tmp
+   14  pwd
+   15  mkdir piit
+   16  cd piit
+   17  pwd
+   18  touch apple.txt orange.txt
+   19  touch file{1..10}.txt
+   20  ls
+   21  nano apple.txt
+   22  which nano
+   23  which ls
+   24  which passwd
+   25  which useradd
+   26  which nano
+   27  yum install nano -y
+   28  clear
+   29  nano apple.txt
+   30  cd /
+   31  pwd
+   32  ls /tmp/piit
+   33  find /tmp/piit -name apple.txt
+   34  find  /tmp -mtime -7
+   35  find  /tmp -mtime -1
+   36  clear
+   37  find / -name apple*.*
+   38  clear
+   39  find / -name apple*.txt
+   40  find / -name a*.txt
+   41  find / -name a*.txt > test.txt
+   42  cat test.txt
+   43  find / -type f -name "*.log"
+   44  find / -type -name "*.log"
+   45  find / -type -name *.log
+   46  find / -type f -name "*.log"
+   47  clear
+   48  find / -name /run
+   49  find / -name /run/*.*
+   50  clear
+   51  cd /
+   52  pwd
+   53  find / -size +100M
+   54  find / -size +10M
+   55  find / -size +50M
+   56  clear
+   57  find  / -type f -cmin -60
+   58  clear
+   59  ls -ll
+   60  clear
+   61  ls
+   62  cd /tmp/piit
+   63  ls
+   64  diff apple.txt orange.txt
+   65  nano orange.txt
+   66  diff apple.txt orange.txt
+   67  clear
+   68  file /etc/passwd
+   69  file /tmp/piit/apple.txt
+   70  which ls
+   71  file /usr/bin/ls
+   72  touch ali
+   73  ls
+   74  file ali
+   75  nano ali
+   76  clear
+   77  file ali
+   78  cat apple.txt
+   79  grep "piit" /
+   80  grep "piit" /tmp/piit/
+   81  grep -r "piit" /tmp/piit/
+   82  grep -r "piit" /
+   83  grep -r "piit" /tmp
+   84  grep -r "devops" /tmp
+   85  grep -r "AWS" /tmp
+   86  cat apple.txt
+   87  grep -ri "AWS" /tmp
+   88  grep -ri "ec2*" /etc/passwd
+   89  cat /etc/passwd
+   90  grep -ri "ec2*" /etc/passwd
+   91  clear
+   92  useradd --help
+   93  cleare
+   94  clear
+   95  useradd apple
+   96  cat /etc/passwd
+   97  usermod --help
+   98  usermod -l orange apple
+   99  cat /etc/passwd
+  100  clear
+  101  history
+  102  clear
+  103  ls
+  104  cat apple.txt
+  105  sed -i 's/aws/azure/g' apple.txt
+  106  cat apple.txt
+  107  clear
+  108  less apple.txt
+  109  ip a >> apple.txt
+  110  cat apple.txt
+  111  clear
+  112  less apple.txt
+  113  head apple.txt
+  114  tail apple.txt
+  115  clear
+  116  tail apple.txt
+  117  history
+  118  clear
+  119  cat apple.txt
+  120  clear
+  121  head apple.txt
+  122  clear
+  123  tail apple.txt
+  124  tail --help
+  125  clear
+  126  tail --help
+  127  clear
+  128  tail -n 3 apple.txt
+  129  clear
+  130  history
