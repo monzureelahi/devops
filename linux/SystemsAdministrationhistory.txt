@@ -1,0 +1,105 @@
+   84  systemctl status httpd
+   85  clear
+   86  systemctl list-units --type=service
+   87  clear
+   88  systemctl list-units --type=service | grep -i "HTTP"
+   89  systemctl status sshd
+   90  systemctl list-units --type=service | grep -i "sshd"
+   91  clear
+   92  history
+   93  clear
+   94  ps aux
+   95  ps aux | grep -i "firefox"
+   96  clear
+   97  ps aux | grep -i "firefox"
+   98  clear
+   99  ps aux
+  100  ps aux | more
+  101  kill 1010
+  102  ps aux | more
+  103  ps aux | grep -i "1010"
+  104  clear
+  105  ps aux | more
+  106  pkill -9 1016
+  107  ps aux | more
+  108  pkill 1016
+  109  ps aux | more
+  110  pkill -f 1016
+  111  ps aux | more
+  112  systemctl stop httpd
+  113  ps aux | more
+  114  clear
+  115  pkill firefox
+  116  pstree
+  117  clear
+  118  pstree
+  119  pstree | more
+  120  top
+  121  lsof
+  122  lsof | grep -i "httpd"
+  123  lsof | grep -i "http"
+  124  clear
+  125  lsof | grep -i "ssh"
+  126  clear
+  127  uptime
+  128  who
+  129  who am i
+  130  whoami
+  131  free -h
+  132  clear
+  133  dnf list installed | more
+  134  dnf list installed | grep -i "firefox"
+  135  clear
+  136  df -h
+  137  shutdown now
+  138  clear
+  139  lsblk
+  140  ls /dev
+  141  clear
+  142  lsbls
+  143  lsblk
+  144  pvcreate /dev/sdc
+  145  vgcreate vg_data /dev/sdc
+  146  lvcreate --help
+  147  clear
+  148  lvcreate -l 100%VG -n lv_data vg_data
+  149  mkfs.xfs /dev/vg_data/lv_data
+  150  lsblk
+  151  df -h
+  152  mkdir /mnt/piitdata
+  153  mount /dev/vg_data/lv_data /mnt/piitdata/
+  154  df -h
+  155  cd /mnt/piitdata/
+  156  ls
+  157  touch wust{1..1000}.txt
+  158  ls
+  159  clear
+  160  df -h
+  161  reboot
+  162  df -h
+  163  ls /mnt/piitdata/
+  164  lsblk
+  165  mount /dev/vg_data/lv_data /mnt/piitdata/
+  166  df -h
+  167  ls /mnt/piitdata/
+  168  clear
+  169  history
+  170  df -h
+  171  ls /mnt/piitdata/
+  172  clear
+  173  nano /etc/fstab
+  174  df -h
+  175  reboot
+  176  clear
+  177  df -h
+  178  ls /mnt/piitdata/
+  179  clear
+  180  history
+  181  clear
+  182  umount /mnt/data
+  183  umount /mnt/piitdata
+  184  df -h
+  185  nano /etc/fstab
+  186  clear
+  187  shutdown now
+  188  history
